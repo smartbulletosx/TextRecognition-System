@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
+	 <title>Title</title>
+</head>
+<body>
+    {% block content %}
+  {% if res != "" %}
+    <p>File uploaded </p>
+   	<div style="width: 300px;">
+	{{ res }}
+	</div>
+  {% endif %}
+{% endblock %}
+</body>
+</html>
